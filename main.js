@@ -11,6 +11,7 @@ btn.addEventListener('click',function(){
  for(let i =0; i<6; i++){
     const index = Math.floor(Math.random() * hex.length); //2
     hex_key = hex_key + hex[index];
+    
  }
 
  hex_value.innerHTML = hex_key;
